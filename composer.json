@@ -1,0 +1,25 @@
+{
+  "name": "evolutionphp/error-handler",
+  "description": "Error Handler",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "error handler"
+  ],
+  "authors": [
+    {
+      "name": "Andres Mendoza",
+      "homepage": "https://twitter.com/EvolutionPHP"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EvolutionPHP\\ErrorHandler\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "symfony/error-handler": ">=v7.2.3"
+  }
+}
